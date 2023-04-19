@@ -162,6 +162,43 @@ footer ul {
 
 /* media queries go below */
 
+@media (max-width: 810px) {
+    
+    html{
+        line-height: 125%;
+    }
+
+    nav a {
+        padding: 15px;
+        letter-spacing: normal;
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        padding-left:  15px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        text-shadow: 3px 5px 3px #ccc;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    img {
+        float:left;
+        max-width: 25%;
+        margin-left: 10%;
+        box-shadow: 5px 5px 3px #ccc
+    }
+
+    .rate{
+        font-size: 1.2rem;
+    }
+}
+
 @media (max-width: 360px) {
 
     html {
@@ -222,41 +259,3 @@ footer ul {
 
     
 }
-
-
-@media (max-width: 810px) {
-    
-    html{
-        line-height: 125%;
-    }
-
-    nav a {
-        padding: 15px;
-        letter-spacing: normal;
-        font-size: 1.5rem;
-    }
-
-    nav ul {
-        padding-left:  15px;
-    }
-
-    h1 {
-        font-size: 2rem;
-        text-shadow: 3px 5px 3px #ccc;
-    }
-
-    h2 {
-        font-size: 1.6rem;
-    }
-
-    img {
-        float:left;
-        max-width: 25%;
-        margin-left: 10%;
-        box-shadow: 5px 5px 3px #ccc
-    }
-
-    .rate{
-        font-size: 1.2rem;
-    }
-}  
