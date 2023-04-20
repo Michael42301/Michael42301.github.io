@@ -19,14 +19,14 @@ footer a {
 
 nav a:link,
 nav a:visited {
-    line-height 2;
+    line-height: 2;
 }
 
 nav a:hover,
 nav a:active {
     text-decoration: rgb(62, 84, 172) 4px;
     text-underline-offset: 8px;
-    color: rgb(62, 84, 172);
+    color:rgb(62, 84, 172);
 }
 
 nav a:hover::before {
@@ -34,7 +34,7 @@ nav a:hover::before {
 }
 .assignment a:link,
 .assignments a:visited {
-    line-height 1.8;
+    line-height: 1.8;
 }
 
 .assignments a:hover::before{
@@ -50,7 +50,11 @@ nav a:hover::before {
     content: "\1f436";
 }
 
-nav a,
+nav a{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+}
+
 .top a,
 footer a {
     text-decoration:none;
@@ -79,4 +83,44 @@ html {
     font-size: 1.25rem;
     line-height: 1.2;
     color: #1b1c1d;
+}
+
+h2 {
+    left: 2rem;
+    position: relative;
+}
+
+ul {
+    left: 1rem;
+    position: relative;
+}
+
+nav {
+    background-color:rgb(62, 84, 172);
+    position: fixed;
+    right:3rem;
+    width:190px;
+    
+    
+}
+
+p {
+    width: 70%;
+    position: relative;
+    left: 2rem;
+}
+
+h3 {
+    position: relative;
+    right: 1rem;
+}
+
+section {
+position: relative;
+right: 2rem;
+}
+
+footer {
+position: relative;
+right: 3rem;
 }
