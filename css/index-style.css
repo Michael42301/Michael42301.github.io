@@ -76,7 +76,7 @@ h3 {
     font-family:Arial, Helvetica, sans-serif;
     text-decoration: underline wavy rgba(62, 84, 172) 6px;
     text-underline-offset: 14px;
-    animation: fade-in 2s ease-out;
+    animation: fade-in 3s ease-out;
 }
 
 html {
@@ -103,6 +103,7 @@ nav {
     right:3rem;
     width:190px;
     transition: all 2s;
+    animation: fade-in 3s ease-out
     
     
 }
@@ -135,6 +136,9 @@ nav:hover {
     border: 2px solid;
 }
 
+img {
+    animation: fade-in 2s ease-out;
+}
 
 
 
