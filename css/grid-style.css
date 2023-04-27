@@ -108,3 +108,9 @@ nav a:active {
         grid-area: 3 / 6 / 5 / 8; 
         background-color:darkslategrey
     }
+
+    footer {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
